@@ -1,0 +1,248 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: url(../image/backgroundImg/shubabianji.jpg);
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+input,button,textarea {
+	outline: none;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+}
+.navbarDown {
+	position: absolute;
+	top: 60px;
+	width: 100%;
+	height: 70px;
+	background: #3f3f41;
+}
+#navbarDownTitle {
+	display: block;
+	position: absolute;
+	left: 50%;
+	margin-left: -60px;
+	margin-top: 20px;
+	width: 120px;
+	font-size: 30px;
+	font-family: 幼圆;
+	color: #05A8f6;
+}
+
+.edit {
+	position: absolute;
+	top: 250px;
+	left: 50%;
+	margin-left: -35%;
+	width: 70%;
+	height: 1000px;
+	background: #fff;
+	opacity: 0.9;
+	border-radius: 10px;
+}
+#artTitle {
+	position: absolute;
+	top: 10px;
+	left: 50%;
+	margin-left: -40%;
+	width: 80%;
+	height: 50px;
+	background: transparent;
+	border: 0;
+	border-bottom: 2px solid #000;
+	text-align: center;
+	font-family: 幼圆;
+	font-size: 120%;
+	color: #6a6c6b;
+}
+#editart{
+	position: absolute;
+	top: 80px;
+	left: 50%;
+	margin-left: -40%;
+	width: 80%;
+	height: 600px;
+	border: 1px solid #4c5154;
+	font-size: 100%;
+	font-family: 仿宋;
+}
+.editNav {
+	display: block;
+	position: absolute;
+	top: 0;
+	height: 40px;
+	width: 100%;
+}
+.navimg {
+	margin: 0;
+	padding: 0;
+	margin-left: 20px;
+	margin-top: 3px;
+	width: 25px;
+	height: 25px;
+}
+#uploadImg {
+	position: absolute;
+	top: 5px;
+	margin-left: 500px;
+}
+#uploadImg:hover {
+	cursor: pointer;
+}
+#slidePanel {
+	position: absolute;
+	top: 40px;
+	height: 80px;
+	width: 100%;
+	background: orange;
+	z-index: 5;
+	border: 0;
+	border-radius: 5px;
+}
+.uploadcontrols {
+	position: relative;
+	margin-top: 10px;
+	margin-left: 20px;
+	width: 200px;
+	height: 20px;
+}
+#article {
+	position: absolute;
+	top: 40px;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 560px;
+	font-size: 120%;
+	font-family: 仿宋;
+	resize: none;
+	border: 0;
+	border-top:1px solid #5a5f5f;
+	border-bottom: 1px solid #5a5f5f;
+	line-height: 2;
+}
+#sortMethod {
+	position: absolute;
+	top: 72%;
+	left: 50%;
+	margin-left: -40%;
+	width: 80%;
+	height: 15%;
+	border: 1px solid #000;
+}
+#sortMethodTitle {
+	width: 100%;
+	height: 30%;
+	border: 1px solid #777;
+}
+#sortMethodTitle span {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 80%;
+	top: 20%;
+	font-family: 幼圆;
+	font-size: 150%;
+	text-align: center;
+	color: #3a3d3d;
+}
+#sortMethodPanel {
+	position: relative;
+	width: 100%;
+	height: 70%;
+	background: #3a3d3d;
+}
+.sortMethodPanelImg {
+	display: block;
+	position: relative;
+	float: left;
+	width: 20%;
+	height: 100%;
+	opacity: 1;
+}
+.sortImg:hover {
+	cursor: pointer;
+	cursor: hand;
+}
+.sortImg {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -45px;
+	margin-left: -35px;
+	width: 70px;
+	height: 70px;
+	opacity: 1;
+}
+.chosen {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 30px;
+	height: 30px;
+}
+.sortMethodPanelImg span {
+	display: block;
+	position: absolute;
+	bottom: 5px;
+	width: 100%;
+	text-align: center;
+	font-family: 幼圆;
+	color: #fff;
+}
+#sub {
+	display: block;
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	margin-left: -10%;
+	width: 20%;
+	height: 5%;
+	border: 0;
+	border-radius: 10px;
+	background: #04a8f6;
+	color: #fff;
+	font-size: 120%;
+	font-family: 幼圆;
+}
+#sub:hover {
+	cursor: pointer;
+	cursor: hand;
+}
+#navbarBottom {
+	position: relative;
+	margin-top: 1350px;
+	width: 100%;
+	height: 50px;
+	background: #313234;
+}
+#navbarBottom img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -16px;
+	margin-left: -123px;
+	display: block;
+	width: 247px;
+	height: 33px;
+}
+.toTop {
+	position: fixed;
+	top: 50%;
+	right: 5%;
+	margin-top: -32px;
+	width: 33px;
+	height: 64px;
+}
+.toTop img{
+	margin: 0;
+	padding: 0;
+	width: 33px;
+	height: 64px;
+	cursor: pointer;
+	cursor: hand;
+}

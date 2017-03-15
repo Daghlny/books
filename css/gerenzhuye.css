@@ -1,0 +1,170 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: green;
+}
+input, button {
+	outline: none;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+}
+/*********************************************/
+#headImgPanel,#infoPanel{
+	width: 100%;
+	min-width: 900px;
+	height: 400px;
+	background: orange;
+}
+#headImgPanel {
+	height: 450px;
+/*	margin-top: 60px;*/
+	background: url("../image/gerenxinxi/headImgback.jpg");
+/*	background-repeat: no-repeat;
+*/	background-size: 100% 450px;
+    background-repeat: no-repeat;
+}
+#infoPanel {
+	background: #313234;
+}
+#headImgPanel-control {
+	position: absolute;
+	left: 50%;
+	margin-left: -75px;
+	margin-top: 100px;
+	width: 150px;
+	height: 150px;
+	background: url("../image/gerenxinxi/headImgback.png");
+	background-size: 150px 150px;
+	background-repeat: no-repeat;
+}
+#headImgPanel-control img {
+	display: block;
+	margin: 35px;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+#headImgPanel-control img:hover {
+	cursor: pointer;
+}
+#username-control {
+	position: absolute;
+	left: 50%;
+	margin-left: -75px;
+	margin-top: 250px;
+	width: 150px;
+	height: 100px;
+	background: transparent;
+}
+#headImgBTN-control {
+	position: absolute;
+	left: 50%;
+	margin-top: 350px;
+	margin-left: -200px;
+	width: 400px;
+	height: 100px;
+	background: transparent;
+}
+.headImgBTN {
+	padding: 0;
+	margin: 0;
+	margin-top: 25px;
+	width: 150px;
+	height: 50px;
+	color: #fff;
+	border: 0;
+	border-radius: 10px;
+	float: left;
+	font-size: 17px;
+	font-family: 微软雅黑;
+	opacity: 0.7;
+}
+.headImgBTN:hover {
+	opacity: 1;
+	cursor: pointer;
+	cursor: hand;
+}
+#myArt {
+	background: #22ac38;
+}
+#personInfo {
+	margin-left: 100px;
+	background: #00b7ee;
+}
+#myInfo-control {
+	position: relative;
+	top: 80px;
+	left: 50%;
+	margin-left: -150px;
+	width: 300px;
+	height: 250px;
+	background-color: transparent;
+	font-family: 微软雅黑;
+}
+.editInfo {
+	position: absolute;
+	left: 50%;
+	margin: 0;
+	margin-top: 10px;
+	margin-left: -20px;
+	display: block;
+	width: 41px;
+	height: 44px;
+}
+.editInfo:hover {
+	cursor: hand;
+	cursor: pointer;
+}
+.editInfo img {
+	margin: 0;
+	padding: 0;
+	width: 41px;
+	height: 44px;
+}
+.myInfo {
+	width: 100%;
+	height: 40px;
+}
+.infoPanelLabel {
+	position: absolute;
+	width: 80px;
+	font-size: 15px;
+	font-family: 微软雅黑;
+	color: #fff;
+	float: left;
+}
+.infoPanelcontrols {
+	position: absolute;
+	margin-left: 80px;
+	width: 210px;
+	height: 40px;
+	color: #fff;
+}
+.infoPanelinput {
+	border: 0;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	height: 20px;
+	color: #fff;
+	font-family: 微软雅黑;
+}
+/*********************************************/
+#navbarBottom {
+	border-top: 1px solid #939796;
+	position: relative;
+	width: 100%;
+	height: 50px;
+	background: #313234;
+}
+#navbarBottom img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -16px;
+	margin-left: -123px;
+	display: block;
+	width: 247px;
+	height: 33px;
+}

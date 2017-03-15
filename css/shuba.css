@@ -1,0 +1,469 @@
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background: #f0f0f0;
+	min-height: 1000px;
+	/*overflow: hidden;*/
+}
+input,button,textarea {
+	outline: none;
+}
+.li_box_div:hover,a:hover,#sortChooseMethod li:hover, button:hover {
+	cursor: pointer;
+}
+.container {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background: #f0f0f0;
+	overflow: hidden;
+}
+.toTop {
+	position: fixed;
+	top: 80%;
+	right: 5%;
+	margin-top: -32px;
+	width: 33px;
+	height: 64px;
+	z-index: 2;
+}
+.toTop img{
+	margin: 0;
+	padding: 0;
+	width: 33px;
+	height: 64px;
+	cursor: pointer;
+	cursor: hand;
+}
+#changeBTN {
+	position: fixed;
+	top: 60%;
+	right: 5%;
+	width: 33px;
+	height: 64px;
+}
+#changeBTN img {
+	margin: 0;
+	padding: 0;
+	width: 33px;
+	height: 64px;
+	cursor: pointer;
+}
+#wrapper {
+	position: relative;
+	width: 100%;
+	z-index: 3;
+}
+#sortChoose {
+	width: 100%;
+	height: 80px;
+	background: #313234;
+	z-index: 3;
+	overflow: hidden;
+}
+#sortChooseMethod {
+	float: left;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 15%;
+	padding: 0;
+	height: 100%;
+	width: 70%;
+}
+#sortChooseMethod li {
+	float: left;
+	display: block;
+	position: relative;
+	height: 100%;
+	width: 16.6%;
+}
+#sortChooseMethod li img {
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	margin-left: -24px;
+	width: 48px;
+	height: 60%;
+}
+#sortChooseMethod li a{
+	display: block;
+	position: absolute;
+	top: 75%;
+	text-decoration: none;
+	color:#c7c6b9;
+	font-family: 幼圆;
+	width: 100%;
+	text-align: center;
+}
+#warp {
+	position: relative;
+}
+#wrap ul li {
+	float: left;
+	display: block;
+	position: relative;
+	width: 45%;
+	height: 300px;
+	background: #777;
+	margin: 20px 20px;
+}
+#warp ul{
+	float: left;
+}
+#list {
+	position: relative;
+	left: 50%;
+	margin-left: -35%;
+	background: transparent;
+	width: 70%;
+	height: auto;
+	min-width: 950px;
+	overflow: hidden;
+}
+.column {
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+#column1 {
+	margin-right: 50px;
+}
+.li_box {
+	margin-top: 30px;
+	height: auto;
+	width: 450px;
+	background: #fff;
+	font-family: 微软雅黑;
+	color: #757575;
+	border: 0;
+	border-radius: 10px;	
+	box-shadow: 0px 3px 8px #c8c6c6;
+}
+.li_box_div_img {
+	width: 100%;
+	height: auto;
+}
+.li_box_div_title {
+	display: block;
+	font-size: 25px;
+}
+.li_box_div_content, .li_box_div_class, .li_box_div_username{
+	font-size: 15px;
+}
+.li_box_div_content,.li_box_div_title {
+	margin: 0 25px;
+}
+.li_box_div_content {
+	text-indent: 30px;
+	line-height: 20px;
+}
+.li_box_div_class, .li_box_div_username, .li_box_div_classImg{
+	float: left;
+	font-size: 15px;
+}
+.li_box_div_classImg {
+	margin-left: 25px;
+	margin-top: -5px;
+	width: 30px;
+	height: 30px;
+}
+.li_box_div_class {
+	margin-left: 5px;
+}
+.li_box_div_username {
+	margin-left: 200px;
+}
+#all_info {
+	position: absolute;
+	top: 0;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 400px;
+	width: 100%;
+    height: auto;
+	background: #232427;
+	opacity: 0.95;
+	z-index: 5;
+	display: none;
+}
+#all_close {
+	position: fixed;
+	top: 100px;
+	right: 100px;
+	width: 64px;
+	height: 64px;
+}
+#all_close img {
+	width: 64px;
+	height: 64px;
+}
+#all_infoPanel {
+	position: relative;
+	left: 50%;
+	margin: 0;
+	padding: 0;
+	margin-left: -25%;
+	width: 50%;
+	height: auto;
+	background: transparent;
+	color: #ccc;
+	font-family: 幼圆;
+	overflow: hidden;
+}
+#artTitle {
+	position: relative;
+	width: 100%;
+	height: auto;
+	background: transparent;
+	border: 0;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+#artTitle span {
+	margin-bottom: 40px;
+	display: block;
+	padding-top: 30px;
+	margin-top: 10px;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	font-size: 30px;
+}
+#artContent {
+	position: relative;
+	margin-top: 70px;
+	margin-left: 15%;
+	margin-right: 15%;
+	width: 70%;
+	height: auto;
+	overflow: hidden;
+	background: transparent;
+	font-size: 15px;
+	text-indent: 30px;
+	line-height: 25px;
+	word-spacing: 10px;
+	white-space: pre-line;
+}
+#artImg img{
+	width: 80%;	
+	margin-left: 10%;
+	margin-right: 10%;
+}
+#userInfo {
+	margin-top: 50px;
+	width: 100%;
+	height: 100px;
+	border: 0;
+	border-top: 1px solid #ccc;
+}
+#userInfo span{
+	float: left;
+	margin: 0;
+	padding: 0;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 50%;
+	height: 40px;
+	text-align: left;
+	font-size: 20px;
+}
+#all_conmentPanel {
+	margin-top: 20px;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 50px;
+	width: 80%;
+	height: auto;
+	overflow: hidden;
+}
+#all_BTNPanel {
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 80%;
+	height: 30px;
+	overflow: hidden;
+}
+#all_BTNPanel button {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	border-radius: 3px;
+	background: #44affa;
+	height: 30px;
+	width: 70px;
+	float: left;
+}
+#all_BTNPanel p {
+	display: inline;
+	padding-top: 20px;
+	font-family: 仿宋;
+	font-size: 7px;
+	color: #fff;
+	overflow: hidden;
+}
+#all_BTNPanel button span {
+	color: #fff;
+	font-family: 微软雅黑;
+}
+#likeBTN  {
+	margin-left: 0;
+}
+#postConment {
+	position: absolute;
+	right: 20%;
+}
+#conmentArea {
+	margin-top: 20px;
+	margin-left: 10%;
+	width: 80%;
+	height: 80px;
+	border-radius: 7px;
+	resize: none;
+	font-family: 微软雅黑;
+	opacity: 0.5;
+}
+#conmentArea:focus {
+	opacity: 0.9;
+}
+
+
+
+.conmentclass {
+	margin: 5px;
+	border-top: 1px solid #fff;
+	margin-left: 10%;
+	margin-bottom: 20px;
+	width: 80%;
+	overflow: hidden;
+}
+.conmentContentclass {
+	margin: 5px;
+	margin-top: 10px;
+	min-height: 40px;
+	font-family: 仿宋;
+	font-size: 20px;
+	color: #fff;
+	line-height: 23px;
+}
+.conmentAuthorclass {
+	font-family: 微软雅黑;
+	float: right;
+	font-size: 13px;
+}
+
+#qckChange {
+	display: none;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -125px;
+	margin-left: -200px;
+	width: 400px;
+	height: 250px;
+	background: #fff;
+	border-radius: 10px;
+	box-shadow: 0px 3px 8px #c8c6c6;
+}
+#qckChange-title-control {
+	margin-top: 20px;
+	width: 100%;
+	height: 20px;
+}
+#qckChange-title {
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-family: 微软雅黑;
+	color: #44affa;
+}
+.qckChange-controls {
+	margin-left: 50px;
+	margin-top: 25px;
+	width: 300px;
+	height: 50px;
+	overflow: hidden;
+}
+.qckChange-controls label {
+	font-family: 微软雅黑;
+	color: #000;
+	font-size: 17px;
+}
+.qckChange-controls select {
+	width: 200px;
+	height: 30px;
+}
+.qckChange-controls select option {
+	font-family: 微软雅黑;
+}
+#changeMethod {
+	width: 100%;
+	height: 50px;
+}
+#changeMethod button {
+	width: 70px;
+	height: 30px;
+	float: left;
+}
+#changeCancel {
+	margin-left: 50px;
+}
+#changeCertain {
+	margin-left: 140px;
+}
+
+#navbarBottom {
+	margin-top: 200px;
+	width: 100%;
+	height: 50px;
+	background: #313234;
+	overflow: hidden;
+}
+#navbarBottom img {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 8px;
+	display: block;
+	width: 247px;
+	height: 33px;
+}
+@-webkit-keyframes pop {
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes pop {
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+.pop {
+  display: inline-block;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  z-index: 10;
+}
+.pop:hover, .pop:focus, .pop:active {
+  -webkit-animation-name: pop;
+  animation-name: pop;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
